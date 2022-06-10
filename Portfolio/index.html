@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+       <!--  <link rel="stylesheet" href="Resources/normalize.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./Resources/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">&ltMy_Portfolio&gt</div>
+            
+                <a href="#" class="toggle-button">
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                </a>
+    
+                <ul class= "nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a> </li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a> </li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a> </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!--Introduction-->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jasmine Bassey</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> FRONT-END DEV</p>
+            <img src= "Resources/Images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" alt="pic of girl" class="intro__img">
+        </section>
+
+        <!-- About Me section-->
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"> Who I am </h2>
+            <div class="about-me__body">
+                <p>I am an aspiring front-end engineer who found passion, during my maternity leave, in creating code that improves the human life quality. My goal is to work at the intersection of UX design and programming. The languages I want to aspire to are HTML, CSS, and JavaScript. </p>
+            </div>
+            <img src="Resources/Images/ben-parker-OhKElOkQ3RE-unsplash.png" alt="Picture of Jasmine" class="about-me__img">
+        </section>
+
+        <!-- My work section-->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+            <!-- Portfolio item 01-->
+                <a href="./portfolio-item.html" class="portfolio__item">
+                    <img src="Resources/Images/Rectangle 3 copy.png" alt="">
+                    <span class="portfolio__name">Agency website</span>
+                </a>
+        
+
+            <!-- Portfolio item 02-->
+                <a href="#" class="portfolio__item">
+                    <img src="Resources/Images/Rectangle 3.png" alt="">
+                    <span class="portfolio__name">Agency website</span>
+                </a>
+        
+
+            <!-- Portfolio item 03-->
+                <a href="#" class="portfolio__item">
+                    <img src="Resources/Images/Rectangle 3 copy 2.png" alt="">
+                    <span class="portfolio__name">Agency website</span>
+                </a>
+        
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:name@email.comjasminebassey831@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+
+    
+        </footer>
+
+        <script src="./Resources/js/index.js"></script>
+
+    </body>    
+</html>
+
